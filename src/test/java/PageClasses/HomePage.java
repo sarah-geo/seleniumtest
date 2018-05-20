@@ -33,7 +33,7 @@ public class HomePage {
 
 	@FindBy(css = ".btn-primary.btn-action.gcw-submit")
 	WebElement search;
-	
+
 	@FindBy(css = ".alert.alert-error.validation-alert")
 	WebElement alertpopup;
 
@@ -68,7 +68,7 @@ public class HomePage {
 	}
 	public void children() {
 		Select sel = new Select(children);
-		sel.selectByVisibleText("2");
+		sel.selectByVisibleText("3");
 
 	}
 	public void clickSearch() {
