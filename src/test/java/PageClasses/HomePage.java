@@ -64,7 +64,7 @@ public class HomePage {
 
 	public  void adults() {
 		Select sel = new Select(adults);
-		sel.selectByValue("2");
+		sel.selectByIndex("2");
 	}
 	public void children() {
 		Select sel = new Select(children);
