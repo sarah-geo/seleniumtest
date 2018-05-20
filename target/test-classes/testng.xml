@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Expedia">
+	<test name="expediatest">
+	<classes>
+		<class name="com.expedia.Flightbooking.ExpediaActionsTest" ></class>
+	</classes>
+	</test>
+</suite>
